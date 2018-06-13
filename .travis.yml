@@ -1,0 +1,30 @@
+dist: trusty
+sudo: false
+language: node_js
+node_js:
+- 6.11.5
+cache:
+  yarn: true
+  directories:
+  - node_modules
+branches:
+  only:
+  - master
+before_script:
+- if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
+    npm install -g firebase-tools;
+  fi
+script:
+- unset CI
+- npm build
+- CI=true
+after_success:
+  - if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
+      firebase deploy --project tronwatch --token $FIREBASE_TOKEN;
+    else echo "Skipping PR deploy"; fi
+notifications:
+  email:
+    on_failure: change
+    on_success: change
+  slack:
+    secure: VF49iJtRLByk0h5oEQr19zStCTsfeGlaN5SlsqqTeDZtK9joe7ctknH0KUtGUl4CFFt3qdzJd3XVJix1jkJ6Xo8QHbj/Eku2sVZu7GLHsOJqUxcTkiUTVF0OWd7jZ67VTUNEpkUjWUAKynRlJFZJuPTRvjMP1CXsfeurPFDgHjrJNUYcfOcABsNxxQhKoUdzrl4v3L4Hp2bVSGn7+06jk8SkqXFC+0X1iqXKSvLfd9H4FLyAe1hexSsT7it/o/wYJEdboUefHX269fITSpT14mAxPmQerH+19CHKvANRzpR6ba3nhlF55JTSMXqF2OX30CWEV9edSB44B8XoLOkQ3yiTAUfywYnCd0rVdS9pmPUtUSU9AfMhLcjF9YGTmKdrwKxdBGPg2vzrjJtxiw/hE2C2t3HPb1drRw2IECSYUEwe/0rVozvumTiGCGheJ7PnLeH+gCwApzuub1bPKkQbDRSJfCReNjd8QkpBxTJ64F1+tpepr1GdERRYwaYELqk10PIT1VBqMGStPXN9G3x48CmmSREPOl+qTR0xuIwU6GlK+HZg3QGqk0IWQD8MoNPo/vsqebx5zWTTpKaRr4aR6QkZQ+oceUmOgOD7a50LlnqH1salv4O9R0I1eNnbhv8hZ0hXU9NMIrjsDlGZhyd5MRLaAXhC468AH8DSlhHlhlk=
