@@ -1,0 +1,27 @@
+.header {
+    background: #E53647;
+    background-image: url(/images/header.jpg), linear-gradient(to right, #DE2F68, #EA3D2C);
+    background-size: cover;
+    background-position: center center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+/* This should stack on mobile, and the header image should 
+   have negative margin to go "under" the header */
+
+.header-pane {
+    color: #ffffff;
+}
+
+.header-pane h1 {
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+}
+
+.header-pane h2 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+}
