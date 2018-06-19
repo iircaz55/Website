@@ -90,7 +90,7 @@ class Team extends React.Component {
     return output;
   }
 
-  static getHeaderTitle(){
+  static getSubHeader(){
     return (
       <span>
             Our team consists of members from all around the world.<br/>
@@ -102,8 +102,7 @@ class Team extends React.Component {
 
   render() {
     return (
-      <Page header_title="Our Team" header_desc={Team.getHeaderTitle()}>
-
+      <Page header="Our Team" sub_header={Team.getSubHeader()}>
         <div className='col'>
           <div className='row team-members-container'>
             <div className='col-lg-1'/>

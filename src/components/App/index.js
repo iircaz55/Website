@@ -1,7 +1,8 @@
 import React from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
-import Team from 'components/App/Team';
+import Team from 'components/App/Pages/Team';
+import Home from 'components/App/Pages/Home';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,7 +14,7 @@ class App extends React.Component {
           <Router>
             <div className='container'>
 
-              <Route exact path="/" component={Team}/>
+              <Route exact path="/" component={Home}/>
               <Route path="/team" component={Team}/>
 
             </div>

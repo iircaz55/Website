@@ -1,0 +1,52 @@
+
+.home-h{
+    color: white;
+}
+
+@media only screen and (max-width: 991px){
+    .home-h1, .home-h2, .home-h3{
+        text-align:center;
+    }
+
+    .home-h1{
+        margin-top:0.5em !important;
+    }
+}
+
+.home-h1{
+    margin-top:1.5em;
+    font-size: 5em;
+}
+
+.home-h2{
+    font-size: 2em;
+}
+
+.home-h3{
+    margin-top:1em;
+    font-size: 1em;
+}
+
+.home-phones{
+    background-image: url(https://tron.watch/images/phones.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:500px;
+}
+
+.home-middle{
+    background: linear-gradient(to bottom, #0B0F12, #30343D);
+}
+.key-features-h{
+    margin-top:1em;
+    text-align:center;
+    color:white;
+    font-size: 3em;
+}
+
+.key-feature-title{
+    color: white;
+    text-align:center;
+    font-weight: bold;
+}
