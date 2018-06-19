@@ -31,13 +31,10 @@ class Navbar extends React.Component {
               <Link className='nav-link' to='/features'>Features</Link>
             </li>
             <li className="nav-item">
-              <Link className='nav-link' to='/timeline'>Timeline</Link>
-            </li>
-            <li className="nav-item">
               <Link className='nav-link' to='/team'>Team</Link>
             </li>
             <li className="nav-item">
-              <Link className='nav-link' to='/blog'>Blog</Link>
+              <Link className='nav-link' to='/tronsr'>TronSR</Link>
             </li>
             <li className="nav-item">
               <Link className='nav-link' to='/contact'>Contact</Link>
