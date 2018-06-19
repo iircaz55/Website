@@ -21,7 +21,7 @@ class Navbar extends React.Component {
         </button>
 
         <div className="collapse navbar-collapse row" id="navbarTogglerDemo01">
-          <a className="navbar-nav col-lg-3" href="#"><Logo/></a>
+          <Link className="navbar-nav col-lg-3" to="/"><Logo/></Link>
 
           <ul className="navbar-nav navbar-nav-center col-lg-6">
             <li className="nav-item">
