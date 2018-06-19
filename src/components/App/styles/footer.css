@@ -1,11 +1,11 @@
 .footer-download-container{
-    margin-top:30px;
     height:350px;
     background: linear-gradient(to bottom, #0B0F12, #30343D);
 }
 
 .footer-download-header{
-    line-height:250px;
+    line-height:350px;
+    vertical-align: middle;
     text-align:center;
     font-size:3em;
     font-weight:bold;
