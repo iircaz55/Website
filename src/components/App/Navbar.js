@@ -1,6 +1,7 @@
 import React from 'react';
 
 import 'components/App/styles/navbar.css';
+import Logo from 'components/App/Logo';
 
 class Navbar extends React.Component {
   render() {
@@ -18,7 +19,7 @@ class Navbar extends React.Component {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a className="navbar-brand col-lg-3" href="#">Hidden brand</a>
+          <a className="navbar-brand col-lg-3" href="#"><Logo/></a>
 
           <ul className="navbar-nav navbar-nav-center col-lg-6">
             <li className="nav-item">
