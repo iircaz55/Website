@@ -14,7 +14,7 @@ class Page extends React.Component {
           raw_content={this.props.raw_header_content}/>
 
         {this.props.children}
-        <Footer/>
+        <Footer show_download={this.props.show_footer_downloads}/>
       </div>
     );
   }

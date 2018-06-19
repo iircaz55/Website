@@ -7,13 +7,8 @@ class Header extends React.Component {
   render() {
     return (
       <div className='col-lg-12'>
-        <div className='row'>
-          <div className='col-lg-12 footer-download-container'>
-            <p className='footer-download-header'>
-              Download the app
-            </p>
-          </div>
-        </div>
+        {this.getDownloadPart()}
+
         <div className='row'>
           <div className='col-lg-12 footer-container'>
             <div className='row'>
@@ -27,6 +22,20 @@ class Header extends React.Component {
         </div>
       </div>
     );
+  }
+
+  getDownloadPart(){
+    if(this.props.show_download){
+      return (
+        <div className='row'>
+          <div className='col-lg-12 footer-download-container'>
+            <p className='footer-download-header'>
+              Download the app
+            </p>
+          </div>
+        </div>
+      );
+    }
   }
 }
 

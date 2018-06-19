@@ -102,7 +102,7 @@ class Team extends React.Component {
 
   render() {
     return (
-      <Page header="Our Team" sub_header={Team.getSubHeader()}>
+      <Page show_footer_downloads header="Our Team" sub_header={Team.getSubHeader()}>
         <div className='col'>
           <div className='row team-members-container'>
             <div className='col-lg-1'/>

@@ -26,7 +26,6 @@ class App extends React.Component {
               <Route path="/features" component={Features}/>
               <Route path="/timeline" component={Timeline}/>
               <Route path="/tronsr" component={TronSR}/>
-
             </div>
           </Router>
         );
