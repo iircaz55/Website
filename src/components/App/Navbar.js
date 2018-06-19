@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import 'components/App/styles/navbar.css';
 import Logo from 'components/App/Logo';
@@ -6,7 +7,8 @@ import Logo from 'components/App/Logo';
 class Navbar extends React.Component {
   render() {
     return (
-      <nav className="row navbar navbar-expand-lg">
+      <div className='row'>
+      <nav className="navbar col-lg-12 navbar-expand-lg">
         <button
           className="navbar-toggler"
           type="button"
@@ -18,38 +20,38 @@ class Navbar extends React.Component {
           <span className="navbar-toggler-icon"/>
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a className="navbar-brand col-lg-3" href="#"><Logo/></a>
+        <div className="collapse navbar-collapse row" id="navbarTogglerDemo01">
+          <a className="navbar-nav col-lg-3" href="#"><Logo/></a>
 
           <ul className="navbar-nav navbar-nav-center col-lg-6">
             <li className="nav-item">
-              <a className="nav-link" href="#">Home</a>
+              <Link className='nav-link' to='/'>Home</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Features</a>
+              <Link className='nav-link' to='/features'>Features</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Timeline</a>
+              <Link className='nav-link' to='/timeline'>Timeline</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Team</a>
+              <Link className='nav-link' to='/team'>Team</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Blog</a>
+              <Link className='nav-link' to='/blog'>Blog</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Contact</a>
+              <Link className='nav-link' to='/contact'>Contact</Link>
             </li>
-
           </ul>
 
           <ul className="navbar-nav navbar-nav-right col-lg-3">
             <li className="nav-item download">
-              <a className="nav-link" href="#">Download</a>
+              <Link className='nav-link' to='/download'>Download</Link>
             </li>
           </ul>
         </div>
-      </nav> );
+      </nav>
+      </div>);
   }
 }
 

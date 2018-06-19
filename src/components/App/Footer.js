@@ -1,6 +1,7 @@
 import React from 'react';
 
 import 'components/App/styles/footer.css';
+import Logo from 'components/App/Logo';
 
 class Header extends React.Component {
   render() {
@@ -16,9 +17,9 @@ class Header extends React.Component {
         <div className='row'>
           <div className='col-lg-12 footer-container'>
             <div className='row'>
-              <div className='col-sm-4'/>
-              <div className='col-sm-4'>
-                LOGO
+              <div className='col-sm-4 footer-item'/>
+              <div className='col-sm-4 footer-item'>
+                <Logo/>
               </div>
               <div className='col-sm-4'/>
             </div>

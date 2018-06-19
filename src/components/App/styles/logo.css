@@ -1,8 +1,10 @@
 .logo{
-    background-image:url('/public/images/tronwatch_logo.png');
+    background-image:url('https://tron.watch/images/@2xLogo.png');
     background-position: center;
-    width:211px;
-    height:53px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:230px;
+    height:60px;
     display:inline-block;
-    background-color:blue;
+    max-width:100%;
 }

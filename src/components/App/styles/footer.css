@@ -15,3 +15,10 @@
     background-color:black;
     height:100px;
 }
+
+.footer-item{
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
