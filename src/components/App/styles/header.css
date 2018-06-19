@@ -1,15 +1,13 @@
 .header-h1{
+    padding-top: 1em;
+    padding-bottom: 1em;
     color: white;
     text-align:center;
 }
 
 .header-h2{
+    padding-bottom: 4em;
     color: white;
     text-align:center;
-    font-size: 1em;
+    font-size: 0.9em;
 }
-
-.header {
-    padding-bottom: 10rem;
-}
-

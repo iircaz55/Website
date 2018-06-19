@@ -1,0 +1,30 @@
+
+.nav-item{
+    padding-left:15px;
+    padding-right:15px;
+}
+.nav-link{
+    color: white !important;
+}
+
+.navbar-nav-center{
+    display: flex !important;
+    align-items:center !important;
+    justify-content: center;
+}
+
+.navbar-nav-right{
+    display: flex !important;
+    align-items:center !important;
+    justify-content: center;
+}
+.navbar-nav-right > *{
+    margin-left: auto;
+}
+
+.download{
+    border: 1px solid white;
+    border-radius: 3px;
+    padding-left:25px;
+    padding-right:25px;
+}
