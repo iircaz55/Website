@@ -1,0 +1,8 @@
+
+*{
+    font-family: Montserrat, sans-serif;
+}
+
+.fade-background{
+    background: linear-gradient(to right, #DC2D70, #EC3E23);
+}
