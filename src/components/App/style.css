@@ -11,3 +11,8 @@ html, body {
 .fade-background{
     background: linear-gradient(to right, #DC2D70, #EC3E23);
 }
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
