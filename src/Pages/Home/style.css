@@ -1,0 +1,123 @@
+.intro {
+    padding-bottom: 30px;
+}
+
+.home-h {
+    color: white;
+}
+
+@media only screen and (max-width: 991px) {
+    .home-h1,
+    .home-h2,
+    .home-h3 {
+        text-align: center;
+    }
+    .home-h1 {
+        margin-top: 0.5em !important;
+    }
+}
+
+.home-h1 {
+    margin-top: 1.5em;
+    font-size: 5em;
+}
+
+.home-h2 {
+    font-size: 2em;
+}
+
+.home-h3 {
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+.home-phones {
+    background-image: url(https://tron.watch/images/phones.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.home-middle {
+    background: linear-gradient(to bottom, #0B0F12, #30343D);
+}
+
+.home-middle::before {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url(https://tron.watch/images/@2xMacBook%20Pro.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    left: 50%;
+    top: 70%;
+    content: '';
+}
+
+.key-features-h {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+.key-feature {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    padding-top: 230px;
+}
+
+.feature-built {
+    background-image: url(https://tron.watch/images/@2xicon_01.png);
+}
+
+.feature-trust {
+    background-image: url(https://tron.watch/images/@2xicon_02.png);
+}
+
+.feature-os {
+    background-image: url(https://tron.watch/images/@2xicon_03.png);
+}
+
+.key-feature-title {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.key-feature-desc {
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.home-trust-h {
+    margin-top: 2em;
+    font-size: 2em;
+    color: white;
+}
+
+.home-trust-desc {
+    font-size: 0.9em;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.home-red {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.home-red-h {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+
+.home-red-desc {
+    color: white;
+    text-align: center;
+}

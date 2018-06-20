@@ -1,9 +1,9 @@
-.footer-download-container{
+.footer-download-container {
     height:350px;
     background: linear-gradient(to bottom, #0B0F12, #30343D);
 }
 
-.footer-download-header{
+.footer-download-header {
     line-height:350px;
     vertical-align: middle;
     text-align:center;
@@ -11,12 +11,12 @@
     font-weight:bold;
     color:white;
 }
-.footer-container{
+.footer-container {
     background-color:black;
     height:100px;
 }
 
-.footer-item{
+.footer-item {
     height: 100px;
     display:flex;
     align-items: center;

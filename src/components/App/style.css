@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
 
-html {
-	font-family: 'Montserrat', sans-serif;
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 }
 
-html, body {
-    padding: 0;
-    margin: 0;
+.fade-background{
+    background: linear-gradient(to right, #DC2D70, #EC3E23);
 }

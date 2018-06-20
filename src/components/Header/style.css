@@ -1,0 +1,13 @@
+.header-h1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.header-h2 {
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: -20px;
+    padding-bottom: 50px;
+}
