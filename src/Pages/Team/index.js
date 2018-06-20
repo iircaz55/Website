@@ -27,6 +27,7 @@ class Team extends React.Component {
                 title: 'Developer',
                 desc: 'Youngest member of the team, Tayler is a very smart and efficient developer.',
                 img: { backgroundImage:'url()' },
+                github: 'https://github.com/Kondax'
             },
             {
                 name: 'Robert Valentyne',
@@ -85,6 +86,7 @@ class Team extends React.Component {
                             { this.getIcon('linkedin', member.linkedin) }
                             { this.getIcon('facebook', member.facebook) }
                             { this.getIcon('twitter', member.twitter) }
+                            { this.getIcon('github', member.github) }
                         </p>
                     </div>
                 </div>

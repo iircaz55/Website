@@ -36,13 +36,12 @@
 }
 
 .team-member-social {
-    position: absolute;
-    bottom: -3px;
-    left: 15px;
-    right: 15px;
-    vertical-align: bottom;
     text-align: center;
+    font-size: 30px;
+    margin-bottom: -20px;
+    margin-top: -10px;
 }
+
 .team-member-social-icon {
     margin-right: 15px;
     margin-left: 15px;
