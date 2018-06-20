@@ -9,43 +9,43 @@ class Team extends React.Component {
     get members() {
         return [
             {
-                name: "Antoine Portaria",
-                title: "Founder",
-                desc: "With a little, more than 12 years in Software Development Antoine main focus is to find some innovative idea to make the Tron Community a better place. Making sure",
-                img: { backgroundImage:"url()" },
-                twitter: "https://twitter.com/The_Magalon"
+                name: 'Antoine Portaria',
+                title: 'Founder',
+                desc: 'With a little, more than 12 years in Software Development Antoine main focus is to find some innovative idea to make the Tron Community a better place. Making sure',
+                img: { backgroundImage:'url()' },
+                twitter: 'https://twitter.com/The_Magalon'
             },
             {
-                name: "Sebastian Nolin",
-                title: "UI/UX Designer",
-                desc: "With more than 15 years experience, Sebastien specializes in improving the production process, innovating the techniques of using the tools of creation and advocate the use of talents and team accomplishment in order to complete all types of projects.",
-                img: { backgroundImage:"url()" },
-                twitter: "https://twitter.com/sebnolin"
+                name: 'Sebastian Nolin',
+                title: 'UI/UX Designer',
+                desc: 'With more than 15 years experience, Sebastien specializes in improving the production process, innovating the techniques of using the tools of creation and advocate the use of talents and team accomplishment in order to complete all types of projects.',
+                img: { backgroundImage:'url()' },
+                twitter: 'https://twitter.com/sebnolin'
             },
             {
-                name: "Tayler King",
-                title: "Developer",
-                desc: "Youngest member of the team, Tayler is a very smart and efficient developer.",
-                img: { backgroundImage:"url()" },
+                name: 'Tayler King',
+                title: 'Developer',
+                desc: 'Youngest member of the team, Tayler is a very smart and efficient developer.',
+                img: { backgroundImage:'url()' },
             },
             {
-                name: "Robert Valentyne",
-                title: "Developer",
-                desc: "",
-                img: { backgroundImage:"url()" },
+                name: 'Robert Valentyne',
+                title: 'Developer',
+                desc: '',
+                img: { backgroundImage:'url()' },
             },
             {
-                name: "Tommy Pudel",
-                title: "Frontend Developer",
-                desc: "",
-                img: { backgroundImage:"url()" },
+                name: 'Tommy Pudel',
+                title: 'Frontend Developer',
+                desc: '',
+                img: { backgroundImage:'url()' },
             },
             {
-                name: "Martin Hoffman",
-                title: "Developer",
-                desc: "With 15 years dev experience, Martin comes from a video game background and will focus on building the tron.watch API backend, and developing DApps on the Tron network.",
-                img: { backgroundImage:"url()" },
-                twitter: "https://twitter.com/i_418_i"
+                name: 'Martin Hoffman',
+                title: 'Developer',
+                desc: 'With 15 years dev experience, Martin comes from a video game background and will focus on building the tron.watch API backend, and developing DApps on the Tron network.',
+                img: { backgroundImage:'url()' },
+                twitter: 'https://twitter.com/i_418_i'
             }
         ];
     }
@@ -76,9 +76,11 @@ class Team extends React.Component {
                         <h5 className='team-member-title'>
                             { member.title }
                         </h5>
-                        <p className='team-member-desc'>
-                            { member.desc }
-                        </p>
+                        <div className='team-member-desc-holder'>
+                            <p className='team-member-desc'>
+                                { member.desc }
+                            </p>
+                        </div>
                         <p className='team-member-social'>
                             { this.getIcon('linkedin', member.linkedin) }
                             { this.getIcon('facebook', member.facebook) }
@@ -102,16 +104,14 @@ class Team extends React.Component {
 
     render() {
         return (
-            <PageWrapper showDownloads header="Our Team" subHeader={ this.subHeader }>
+            <PageWrapper showDownloads header='Our Team' subHeader={ this.subHeader }>
                 <div className='col'>
                     <div className='row team-members-container'>
-                        <div className='col-lg-1'></div>
-                        <div className='col'>
+                        <div className='container'>
                             <div className='row team-members-container-inner'>
                                 { this.renderMembers() }
                             </div>
                         </div>
-                        <div className='col-lg-1'/>
                     </div>
                 </div>
             </PageWrapper>

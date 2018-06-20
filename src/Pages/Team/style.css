@@ -1,72 +1,70 @@
-.team-member-card{
+.team-member-card {
     margin-bottom: 15px;
     margin-top: 15px;
-    padding: 5px;
 }
-.team-member-card-inner{
+.team-member-card-inner {
     background-color:#F2F2F2;
-    border-radius: 15px;
-    padding:5px;
-    padding-top: 15px;
-    padding-bottom:25px;
+    border-radius: 10px;
+    padding: 30px 0;
     height: 100%;
-}
-
-.team-member-photo{
-    display:table;
-    margin: 0 auto;
-    height:150px;
-    width:150px;
-    border-radius: 150px;
-    background-position:center ;
-    background-size:cover;
-    background-color:grey;
-}
-
-.team-member-name{
-    padding-top: 15px;
-    text-align:center;
-    font-size: 1.2em;
-    font-weight:bold;
-}
-
-.team-member-title{
-    text-align:center;
-    color:#EA5651;
-    font-size:0.9em;
-}
-
-.team-member-social{
-    position:absolute;
-    bottom: 0;
-    left:0;
-    right:0;
-    vertical-align:bottom;
-    text-align:center;
-}
-.team-member-social-icon{
-    margin-right:15px;
-    margin-left:15px;
-    color:black;
-}
-
-.team-member-desc{
-    font-size: 0.8em;
-    text-align:center;
-    font-weight:bold;
-    padding-top:20px;
-    padding-right: 5px;
-    padding-left: 5px;
-}
-
-.team-members-container-inner{
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display:         flex;
-    flex-wrap: wrap;
-}
-.team-members-container-inner> [class*='col-'] {
     display: flex;
     flex-direction: column;
+}
+
+.team-member-photo {
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    background-position: center;
+    background-size: cover;
+    background-color: grey;
+}
+
+.team-member-name {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.team-member-title {
+    text-align: center;
+    color: #EA5651;
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.team-member-social {
+    position: absolute;
+    bottom: -3px;
+    left: 15px;
+    right: 15px;
+    vertical-align: bottom;
+    text-align: center;
+}
+.team-member-social-icon {
+    margin-right: 15px;
+    margin-left: 15px;
+    color: black;
+}
+
+.team-member-desc-holder {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.team-member-desc {
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+}
+
+.team-members-container-inner {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 0;
 }
