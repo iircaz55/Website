@@ -7,7 +7,7 @@ import './style.css';
 class Home extends React.Component {
     render() {
         return (
-            <PageWrapper rawHeaderContent={ this.headerContent }>
+            <PageWrapper showDownloads rawHeaderContent={ this.headerContent }>
                 <div className='col-lg-12 home-middle'>
                     <div className='container'>
                         <div className='row'>

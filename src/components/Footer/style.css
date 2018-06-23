@@ -1,19 +1,19 @@
 .footer-download-container {
-    height:350px;
-    background: linear-gradient(to bottom, #0B0F12, #30343D);
+    background: linear-gradient(0deg, #31353E 0%, #192028 51.21%, #0B0F12 100%);
+    padding: 90px 0;
 }
 
 .footer-download-header {
-    line-height:350px;
-    vertical-align: middle;
-    text-align:center;
-    font-size:3em;
-    font-weight:bold;
-    color:white;
+    line-height: 58px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
 }
+
 .footer-container {
-    background-color:black;
-    height:100px;
+    background-color: black;
+    height: 118px;
 }
 
 .footer-item {

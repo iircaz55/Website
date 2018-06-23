@@ -1,0 +1,51 @@
+.feature {
+    margin-bottom: 90px;
+}
+
+.feature:first-of-type {
+    margin-top: 90px;
+}
+
+.feature-image {
+    max-width: 100%;
+    align-self: center;
+    justify-self: center;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
+
+.feature-desc {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+}
+
+.feature-desc h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    padding-bottom: 3px;
+}
+
+.feature-desc h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+.feature-desc p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}

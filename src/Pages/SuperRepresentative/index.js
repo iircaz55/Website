@@ -7,7 +7,7 @@ import './style.css';
 class SuperRepresentative extends React.Component {
     render() {
         return (
-            <PageWrapper page='superRepresentative' pageTitle='Super Representative'>
+            <PageWrapper showDownloads>
 
             </PageWrapper>
         );
