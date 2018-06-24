@@ -51,6 +51,13 @@
 
 .timeline-col::after {
     bottom: -10px;
+    background: transparent;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #DC2C73;
+    margin-left: -15px;
 }
 
 .timeline-row:not(.flex-row-reverse) {
