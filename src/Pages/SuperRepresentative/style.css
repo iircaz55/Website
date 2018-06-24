@@ -1,0 +1,157 @@
+.timeline-end {
+    display: block;
+    flex: 1;
+    color: #EC3E22;	
+    font-family: 'Montserrat', sans-serif;	
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+}
+
+.timeline-end.beginning {
+    margin-top: 90px;
+}
+
+.timeline-end.end {
+    margin-bottom: 90px;
+}
+
+.timeline {
+    padding: 90px 0;
+    margin: 90px 0;
+    position: relative;
+}
+
+.timeline-col {
+    width: 6px;
+    background: linear-gradient(224.73deg, #ED3F21 0%, #DC2C73 100%);
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.timeline-col::before, .timeline-col::after {
+    position: absolute;
+    background: linear-gradient(224.73deg, #ED3F21 0%, #DC2C73 100%);
+    width: 20px;
+    height: 20px;
+    left: 3px;
+    content: "";
+    margin-left: -10px;
+    border-radius: 24px;
+}
+
+.timeline-col::before {
+    top: -10px;    
+}
+
+.timeline-col::after {
+    bottom: -10px;
+}
+
+.timeline-row:not(.flex-row-reverse) {
+    text-align: right;
+    padding-right: 100px;
+}
+
+.timeline-row.flex-row-reverse {
+    padding-left: 100px;
+}
+
+.timeline-row {
+    margin-top: 20px;
+}
+
+.timeline-row:first-of-type {
+    margin-top: 0;
+}
+
+.timeline-row h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #000000;
+    width: 217px;
+    position: relative;
+}
+
+.timeline-row h1::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 2px;
+    margin-top: -1px;
+    right: -65px;
+    width: 40px;
+    background-color: #EC3E22;
+}
+
+.timeline-row h1::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 6px;
+    width: 6px;
+    margin-top: -3px;
+    right: -30px;
+    background: linear-gradient(224.73deg, #ED3F21 0%, #DC2C73 100%);
+    border-radius: 6px;
+}
+
+.timeline-row.flex-row-reverse h1::after {
+    left: -65px;
+    right: auto;
+}
+
+.timeline-row.flex-row-reverse h1::before {
+    left: -30px;
+    right: auto;
+}
+
+.timeline-row h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #EC3E22;
+    margin-top: 8px;
+}
+
+.timeline-row:not(.flex-row-reverse) h1 {
+    margin-left: auto;
+}
+
+.timeline-row ul {
+    padding-left: 20px;
+}
+
+.timeline-content li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-top: 4px;
+}
+
+.timeline-content li:first-of-type {
+    margin-top: 8px;
+}
+
+.timeline-row:not(.flex-row-reverse) ul {
+    direction: rtl;
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+.timeline-row ul li span {
+    direction: ltr;
+    unicode-bidi: embed;
+}
