@@ -14,11 +14,58 @@
 .footer-container {
     background-color: black;
     height: 118px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
 }
 
 .footer-item {
-    height: 100px;
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
+
+.footer-links a {
+    color: #fff;
+    font-size: 14px;
+    padding: 20px;
+    transition: 200ms;
+}
+
+.footer-links a:hover, .footer-socials a:hover {
+    color: #fff;
+    text-decoration: none;
+    transform: translateY(-3px);
+}
+
+.footer-copyright {
+    color: #9B9B9B;
+    margin-right: 40px;
+}
+
+.footer-socials a {
+    display: inline-block;
+    padding: 20px;
+    transition: 200ms;
+}
+
+.footer-socials svg {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+/*
+@keyframes smallFloat {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-3px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+*/
