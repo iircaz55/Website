@@ -28,9 +28,10 @@
 
 .footer-links a {
     color: #fff;
-    font-size: 14px;
+    font-size: .9em;
     padding: 20px;
     transition: 200ms;
+    text-align: center;
 }
 
 .footer-links a:hover, .footer-socials a:hover {
@@ -42,11 +43,19 @@
 .footer-copyright {
     color: #9B9B9B;
     margin-right: 40px;
+    flex-grow: 1;
+    white-space: nowrap;
+}
+
+.footer-socials {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer-socials a {
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
     transition: 200ms;
 }
 
@@ -54,6 +63,18 @@
     display: inline-block;
     width: 24px;
     height: 24px;
+}
+
+@media only screen and (max-width: 1032px) {
+    .footer-container {
+        height: 200px;
+        flex-direction: column;
+        flex-wrap: nowrap !important;
+    }
+
+    .footer-item {
+        max-width: 80% !important;
+    }
 }
 
 /*
