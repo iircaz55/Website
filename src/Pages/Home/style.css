@@ -40,6 +40,7 @@
 }
 
 .home-middle {
+    position: relative;
     background: linear-gradient(to bottom, #0B0F12, #30343D);
     padding: 70px 0;
 }
@@ -49,11 +50,11 @@
     bottom: 0;
     right: 0;
     background-image: url(https://tron.watch/images/@2xMacBook%20Pro.png);
-    background-position: left top;
     background-repeat: no-repeat;
-    left: 50%;
-    top: 70%;
     content: '';
+    background-size: 100%;
+    height: 40%;
+    width: 40%;
 }
 
 .key-features-h {
