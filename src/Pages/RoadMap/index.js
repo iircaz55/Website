@@ -4,60 +4,50 @@ import PageWrapper from 'components/PageWrapper';
 
 import './style.css';
 
-class SuperRepresentative extends React.Component {
+class RoadMap extends React.Component {
     timeline = [
         {
-            title: 'Very long title here lorem ipsum dolores sit',
+            title: 'Tron Programming Contest',
             date: 'April 2018',
             content: [
-                'List item example',
-                'List item example',
-                'List item example'
+                'First place, Windows Wallet',
             ]
         },
         {
-            title: 'Very long title here lorem ipsum dolores sit',
-            date: 'May 2018'
-        },
-        {
-            title: 'Very long title here lorem ipsum dolores sit',
-            date: 'April 2018'
-        },
-        {
-            title: 'Very long title here lorem ipsum dolores sit',
-            date: 'May 2018',
+            title: 'TronLink™',
+            date: '31 July 2018',
             content: [
-                'List item example',
-                'List item example',
-                'List item example'
+                'Release of TVM TestNet',
             ]
         },
         {
-            title: 'Very long title here lorem ipsum dolores sit',
-            date: 'April 2018',
+            title: 'TronWatch Desktop',
+            date: '30th August 2018',
             content: [
-                'List item example',
-                'List item example',
-                'List item example'
+                'Ledger Support',
+                'Multi-Language Support',
             ]
         },
         {
-            title: 'Very long title here lorem ipsum dolores sit',
-            date: 'Q2 - 2019'
+            title: 'TronWatch Mobile',
+            date: 'End of Q3 2018',
+            content: [
+                'Release of the Wallet',
+                'Ledger Support',
+                'Android & Apple Store'
+            ]
         },
         {
-            title: 'Very long title here lorem ipsum dolores sit',
-            date: 'Q2 - 2019'
-        }
+            title: 'Decentralized Exchange Market',
+            date: 'Q4 - 2018',
+        },
     ]
 
     get subHeader() {
         return (
             <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br/>
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut<br/>
-                enim ad minim veniam, quis nostrud exercitation ullamco<br/>
-                laboris nisi ut aliquip ex ea commodo consequat.
+                With a focus on writing DApps and solutions for Tron, <br/>
+                we aim to organically improve the usability and general health of the Tron Community.<br/>
             </span>
         );
     }
@@ -98,17 +88,17 @@ class SuperRepresentative extends React.Component {
 
     render() {
         return (
-            <PageWrapper showDownloads header='Super Representative Timeline' subHeader={ this.subHeader }>
+            <PageWrapper showDownloads header='RoadMap' subHeader={ this.subHeader }>
                 <div className='container'>
                     <div className='row'>
-                        <span className='timeline-end beginning'>Beginning of the time</span>
+                        <span className='timeline-end beginning'>Launch of Tron MainNet</span>
                     </div>
                     <div className='timeline'>
                         { this.renderTimeline() }
                         <div className='timeline-col'></div>
                     </div>
                     <div className='row'>
-                        <span className='timeline-end end'>Goal</span>
+                        <span className='timeline-end end'>End of 2018</span>
                     </div>
                 </div>
             </PageWrapper>
@@ -116,4 +106,4 @@ class SuperRepresentative extends React.Component {
     }
 }
 
-export default SuperRepresentative;
+export default RoadMap;

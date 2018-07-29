@@ -4,29 +4,29 @@ import PageWrapper from 'components/PageWrapper';
 
 import './style.css';
 
-class Features extends React.Component {
+class Projects extends React.Component {
     features = [
         {
-            image: null,
-            title: 'Lorem Ipsum',
-            subTitle: 'Dolor Sit',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+            image: '../images/TronWatch_Desktop.png',
+            title: 'TronWatch',
+            subTitle: 'Desktop Wallet',
+            content: 'TronWatch is a fully OpenSource Wallet for TRON. It covers all the important features the protocol has to offer.'
         },
         {
-            image: null,
-            title: 'Lorem Ipsum',
-            subTitle: 'Dolor Sit',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+            image: '../images/TronLink.png',
+            title: 'TronLink',
+            subTitle: 'Browser Extension',
+            content: 'TronLink provides similar usage to the Tron Network as MetaMask does with the Ethereum Network. Developers will now be able to create and interact with DApps in the browser which opens up a whole new realm that Tron has never seen before.'
         },
         {
-            image: null,
-            title: 'Lorem Ipsum',
-            subTitle: 'Dolor Sit',
-            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+            image: '../images/TronLink.png',
+            title: 'TronWatch',
+            subTitle: 'Mobile Wallet',
+            content: ' fast and reliable wallet that you can use as both Cold and Hot Storage to sign any transaction needed on the Tron Protocol without compromising the user experience.'
         },
         {
-            image: null,
-            title: 'Lorem Ipsum',
+            image: '../images/TronWatch_DEX.png',
+            title: 'Decentralized Exchange',
             subTitle: 'Dolor Sit',
             content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
         }
@@ -35,10 +35,10 @@ class Features extends React.Component {
     get subHeader() {
         return (
             <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br/>
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut<br/>
-                enim ad minim veniam, quis nostrud exercitation ullamco<br/>
-                laboris nisi ut aliquip ex ea commodo consequat.
+                At TronWatch, our focus is on projects that will <br/>
+                help shape the community into a better place.<br/>
+                We plan to do this by building utilities to push the Tron Network forward <br/>
+                as a whole, which will help influence innovation within the network.
             </span>
         );
     }
@@ -66,7 +66,7 @@ class Features extends React.Component {
 
     render() {
         return (
-            <PageWrapper showDownloads header='Features' subHeader={ this.subHeader }>
+            <PageWrapper showDownloads header='Projects' subHeader={ this.subHeader }>
                 <div className='container'>
                     { this.renderFeatures() }
                 </div>
@@ -75,4 +75,4 @@ class Features extends React.Component {
     }
 }
 
-export default Features;
+export default Projects;

@@ -12,14 +12,14 @@ class Team extends React.Component {
                 name: 'Antoine Portaria',
                 title: 'Founder',
                 desc: 'With a little more than 12 years in Software Development, Antoine\'s main focus is to find fresh and innovative ideas to make the Tron Community a better place. Blockchain has always fascinated him since he had first heard about it. By utilizing this technology, Antoine helps to create outstanding applications and services.',
-                img: { backgroundImage:'url()' },
+                img: { backgroundImage:'url(../images/antoine_pic.png)' },
                 twitter: 'https://twitter.com/The_Magalon',
                 github: 'https://github.com/Magalon'
             },
             {
-                name: 'Martin Hoffman',
+                name: 'Metjm',
                 title: 'Developer',
-                desc: 'Martin has 15 years of development experience in many areas of programming. He comes from a video-game influenced background and will focus on building tron.watch\'s API backend, along with developing a wide range of DApps for the Tron network.',
+                desc: 'Metjm has 15 years of development experience in many areas of programming. He comes from a video-game influenced background and will focus on building tron.watch\'s API backend, along with developing a wide range of DApps for the Tron network.',
                 img: { backgroundImage:'url()' },
                 twitter: 'https://twitter.com/i_418_i',
                 github: 'https://github.com/metjm'
@@ -28,7 +28,7 @@ class Team extends React.Component {
                 name: 'Sebastian Nolin',
                 title: 'UI/UX Designer',
                 desc: 'Sebastien has been a UI/UX Designer for more than 15 years. He specializes in improving the production process, utilizing design and layout techniques to improve positive user interaction, and advocates the use of talents and team accomplishment in order to complete all types of projects in a timely manor.',
-                img: { backgroundImage:'url()' },
+                img: { backgroundImage:'url(../images/seb_pic.png)' },
                 twitter: 'https://twitter.com/sebnolin',
                 github: 'https://github.com/sebnolin'
 
@@ -37,21 +37,14 @@ class Team extends React.Component {
                 name: 'Tayler King',
                 title: 'Developer',
                 desc: 'The youngest member of the team Tayler. He is a very intelligent developer who has been developing Web Applications for more than 8 years. He found interest in blockchain technology 3 years ago and started to learn all he possibly could about it. He has worked on multiple applications that scaled to thousands of current users and is confident in his abilities.',
-                img: { backgroundImage:'url()' },
+                img: { backgroundImage:'url(../images/tayler_pic.png)' },
                 github: 'https://github.com/Kondax'
-            },
-            {
-                name: 'Robert Valentyne',
-                title: 'Developer',
-                desc: 'Robert has a diversified experience in basic websites, web applications, mobile development, and blockchain technology.',
-                img: { backgroundImage:'url()' },
-                github: 'https://github.com/Rob--'
             },
             {
                 name: 'Tommy Pudel',
                 title: 'Frontend Developer',
                 desc: 'Excelling in Front-End development, Tommy has worked as a fullstack web developer for the past 4 years before taking a focus on frontend development. Taking each project he touches to the next level, Tommy is always looking for new tech to make the job both better working, and better looking.',
-                img: { backgroundImage:'url()' },
+                img: { backgroundImage:'url(../images/tommy_pic.png)' },
                 github: 'https://github.com/tpudel'
             }
         ];

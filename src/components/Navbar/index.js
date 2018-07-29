@@ -31,21 +31,13 @@ class Navbar extends React.Component {
                                     <Link className='nav-link' to='/'>Home</Link>
                                 </li>
                                 <li className='nav-item'>
-                                    <Link className='nav-link' to='/features'>Features</Link>
+                                    <Link className='nav-link' to='/projects'>Projects</Link>
                                 </li>
                                 <li className='nav-item'>
                                     <Link className='nav-link' to='/team'>Team</Link>
                                 </li>
                                 <li className='nav-item'>
-                                    <Link className='nav-link' to='/super-representative'>Super Representative</Link>
-                                </li>
-                                <li className='nav-item'>
-                                    <Link className='nav-link' to='/contact'>Contact</Link>
-                                </li>
-                            </ul>
-                            <ul className='navbar-nav navbar-nav-right col-lg-3'>
-                                <li className='nav-item download'>
-                                    <Link className='nav-link' to='/download'>Download</Link>
+                                    <Link className='nav-link' to='/roadmap'>RoadMap</Link>
                                 </li>
                             </ul>
                         </div>
