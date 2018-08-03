@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:500');
 
+#navigation {
+    justify-content: space-between;
+}
+
 .navbar {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -9,7 +13,14 @@
 .nav-link {
     color: white !important;
     padding: 0 30px !important;
+    transition: 200ms;
 }
+
+.nav-link:hover {
+    text-shadow: 0px 0px 5px #fff;
+    transition: 0ms;
+}
+
 .navbar-nav {
     padding-left:15px !important;
     padding-right:15px !important;
