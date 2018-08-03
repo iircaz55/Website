@@ -1,4 +1,5 @@
 import React from 'react';
+import FontAwesome from 'react-fontawesome';
 
 import PageWrapper from 'components/PageWrapper';
 
@@ -50,14 +51,14 @@ class Home extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className='col-lg-12 home-red fade-background'>
+                <div className='col-lg-12 home-red fade-background hot-cold-container'>
                     <div className='container'>
                         <div className='row'>
                             <div className='col-lg-6 flex-col'>
                                 <p className='home-red-h'>Hot Wallet</p>
                                 <div className='home-red-desc-container'>
                                     <p className='home-red-desc'>
-                                        Send and receive Tron instantly<br/>
+                                        Send and receive Tron instantly.<br/>
                                         Manage all your Tron accounts and tokens.<br/>
                                         Transactions are signed on your device and broadcasted to the network.
                                     </p>
@@ -68,7 +69,8 @@ class Home extends React.Component {
                                 <div className='home-red-desc-container'>
                                     <p className='home-red-desc'>
                                         Sign Transactions without an active internet connection.<br/>
-                                        Broadcast them using a different device for best possible security.
+                                        Broadcast transactions using a different device.<br/>
+                                        Best possible security.
                                     </p>
                                 </div>
                             </div>
@@ -91,6 +93,9 @@ class Home extends React.Component {
                             Store and spend them with our open source wallet.<br/>
                             Coming to iOS, Android, macOS, Windows and Linux.
                         </h3>
+                        <a target='_blank' href='https://github.com/TronWatch' rel="noopener noreferrer">
+                            <FontAwesome name='github' />
+                        </a>
                     </div>
                     <div className='col-lg-6 home-phones'></div>
                 </div>

@@ -137,7 +137,7 @@
 }
 
 .timeline-row ul {
-    padding-left: 20px;
+    padding-left: 15px;
 }
 
 .timeline-content li {
@@ -154,7 +154,7 @@
 
 .timeline-row:not(.flex-row-reverse) ul {
     direction: rtl;
-    padding-right: 20px;
+    padding-right: 14px;
     padding-left: 0;
 }
 

@@ -12,12 +12,12 @@ class Header extends React.Component {
                 <div className='footer-container row'>
                     <div className='col-sm-4 footer-item footer-links'>
                         <a href="https://github.com/tronprotocol/" target="blank">Tron Protocol</a>
-                        <a href="https://tronscan.org/#/" target="blank">Tron Explorer</a>
+                        <a href="https://tronscan.org/" target="blank">Tron Explorer</a>
                         <a href="https://github.com/tronwatch" target="blank">Github</a>
 
                     </div>
                     <div className='col-sm-4 footer-item'>
-                        <a href="#"><Logo/></a>
+                        <a href=""><Logo/></a>
                     </div>
                     <div className='col-sm-4 footer-item'>
                         <div className="footer-copyright">© TronWatch 2018</div>
