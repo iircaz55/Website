@@ -104,7 +104,7 @@ class RoadMap extends React.Component {
                         <div className='timeline-col'></div>
                     </div>
                     <div className='row'>
-                        <span className='timeline-end end'>End of 2018</span>
+                        <span className='timeline-end end'>End of current Roadmap</span>
                     </div>
                 </div>
             </PageWrapper>
