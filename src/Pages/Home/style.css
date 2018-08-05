@@ -42,7 +42,7 @@
 }
 
 .home-phones {
-    background-image: url(https://tron.watch/images/phones.png);
+    background-image: url(./phones.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -59,7 +59,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    background-image: url(https://tron.watch/images/@2xMacBook%20Pro.png);
+    background-image: url(./@2xMacBookPro.png);
     background-repeat: no-repeat;
     content: '';
     background-size: 100%;
@@ -83,15 +83,15 @@
 }
 
 .feature-built {
-    background-image: url(https://tron.watch/images/@2xicon_01.png);
+    background-image: url(./@2xicon_01.png);
 }
 
 .feature-trust {
-    background-image: url(https://tron.watch/images/@2xicon_02.png);
+    background-image: url(./@2xicon_02.png);
 }
 
 .feature-os {
-    background-image: url(https://tron.watch/images/@2xicon_03.png);
+    background-image: url(./@2xicon_03.png);
 }
 
 .key-feature-title {
@@ -137,7 +137,7 @@
 .home-red-desc {
     color: white;
     text-align: center;
-    
+
     margin: 0;
 }
 
