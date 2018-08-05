@@ -14,34 +14,40 @@ class RoadMap extends React.Component {
             ]
         },
         {
-            title: 'TronLink™',
+            title: 'TronLink',
             date: '31 July 2018',
             content: [
-                'Release of TVM TestNet',
+                'Beta Release',
+            ]
+        },
+        {
+            title: 'TronLink',
+            date: 'End of Q3 2018',
+            content: [
+                'Release for Tron Mainnet',
+                'Web3 compatible api'
             ]
         },
         {
             title: 'TronWatch Desktop',
-            date: '30th August 2018',
+            date: 'Q4 2018',
             content: [
                 'Ledger Support',
                 'Multi-Language Support',
             ]
         },
         {
-            title: 'TronWatch Mobile',
-            date: 'End of Q3 2018',
-            content: [
-                'Release of the Wallet',
-                'Ledger Support',
-                'Android & Apple Store'
-            ]
-        },
-        {
             title: 'Decentralized Exchange Market',
             date: 'Q4 - 2018',
         },
-    ]
+        {
+            title: 'TronWatch Mobile',
+            date: '2019',
+            content: [
+                'Release of the Mobile Wallet'
+            ]
+        }
+    ];
 
     get subHeader() {
         return (
@@ -54,7 +60,7 @@ class RoadMap extends React.Component {
 
     renderTimeline(side) {
         const remainder = side === 'right' ? 0 : 1;
-        
+
         return this.timeline.map((goal, index) => {
             const className = index % 2 === remainder ? 'flex-row-reverse' : '';
             const content = (goal.content || []).map((item, index) => {

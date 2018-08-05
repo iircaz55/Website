@@ -37,7 +37,7 @@ class Navbar extends React.Component {
                                     <Link className='nav-link' to='/team'>Team</Link>
                                 </li>
                                 <li className='nav-item'>
-                                    <Link className='nav-link' to='/roadmap'>RoadMap</Link>
+                                    <Link className='nav-link' to='/roadmap'>Roadmap</Link>
                                 </li>
                             </ul>
                         </div>
